@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Star, Send, TrendingUp, MessageSquare, ThumbsUp, ThumbsDown } from 'lucide-react';
 import './App.css';
-const API_BASE_URL = 'http://localhost:4000'; // Replace with your actual API
+const API_BASE_URL =   'https://upteky-3-e0ga.onrender.com';
 
 const feedbackService = {
   getAllFeedbacks: async () => {
