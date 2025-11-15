@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Star, Send, TrendingUp, MessageSquare, ThumbsUp, ThumbsDown } from 'lucide-react';
 import './App.css';
-// API Service
-const API_BASE_URL = 'https://api.example.com'; // Replace with your actual API
+const API_BASE_URL = 'http://localhost:4000'; // Replace with your actual API
 
 const feedbackService = {
   getAllFeedbacks: async () => {
